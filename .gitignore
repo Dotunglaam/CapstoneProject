@@ -1,0 +1,17 @@
+# Ngăn chặn file cấu hình nhạy cảm
+appsettings.json
+appsettings.Development.json
+
+# Ngăn thư mục build
+bin/
+obj/
+
+# Ngăn node_modules nếu dùng Node.js
+node_modules/
+
+# Ngăn dữ liệu IDE (nếu dùng Visual Studio)
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
